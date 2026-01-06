@@ -1,0 +1,510 @@
+
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <title>Perpustakaan Bulog: Katalog Buku & Informasi</title>
+  <meta name="description" content="Website perpustakaan sederhana yang menampilkan koleksi buku pilihan, pencarian katalog, serta informasi kontak. Struktur semantik dan SEO dioptimalkan." />
+  <link rel="canonical" href="https://perpusbulog.id/" />
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+
+  <meta property="og:type" content="website" />
+  <meta property="og:locale" content="id_ID" />
+  <meta property="og:title" content="Perpustakaan Sederhana — Katalog Buku & Informasi" />
+  <meta property="og:description" content="Koleksi buku pilihan, pencarian katalog, dan informasi perpustakaan dalam tampilan sederhana yang semantik dan SEO-friendly." />
+  <meta property="og:url" content="https://contoh-domainmu.id/" />
+  <meta property="og:site_name" content="Perpustakaan Sederhana" />
+
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Perpustakaan Sederhana — Katalog Buku & Informasi" />
+  <meta name="twitter:description" content="Koleksi buku pilihan, pencarian katalog, dan informasi perpustakaan dalam tampilan sederhana yang semantik dan SEO-friendly." />
+
+  <meta name="theme-color" content="#8b0d1a" />
+
+  <link rel="stylesheet" href="style.css" />
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "LibrarySystem",
+        "@id": "https://contoh-domainmu.id/#library",
+        "name": "Perpustakaan Sederhana",
+        "url": "https://contoh-domainmu.id/",
+        "description": "Portal perpustakaan sederhana untuk menelusuri koleksi buku pilihan dan informasi layanan dasar.",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Jl. Contoh No. 1",
+          "addressLocality": "Jakarta",
+          "addressRegion": "DKI Jakarta",
+          "postalCode": "10110",
+          "addressCountry": "ID"
+        },
+        "telephone": "+62-21-0000-000",
+        "email": "halo@contoh-domainmu.id"
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://contoh-domainmu.id/#website",
+        "url": "https://contoh-domainmu.id/",
+        "name": "Perpustakaan Sederhana",
+        "publisher": { "@id": "https://contoh-domainmu.id/#library" },
+        "inLanguage": "id-ID",
+        "potentialAction": {
+          "@type": "SearchAction",
+          "target": "https://contoh-domainmu.id/?q={search_term_string}",
+          "query-input": "required name=search_term_string"
+        }
+      },
+      {
+        "@type": "ItemList",
+        "@id": "https://contoh-domainmu.id/#koleksi",
+        "name": "Koleksi Buku Pilihan",
+        "itemListOrder": "https://schema.org/ItemListOrderAscending",
+        "numberOfItems": 5,
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "item": {
+              "@type": "Book",
+              "name": "Dasar-Dasar Ilmu Perpustakaan",
+              "author": { "@type": "Person", "name": "A. S. Pratama" },
+              "isbn": "978-602-0000-001-1",
+              "datePublished": "2021-01-01",
+              "publisher": { "@type": "Organization", "name": "Pustaka Nusantara" },
+              "inLanguage": "id-ID"
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "item": {
+              "@type": "Book",
+              "name": "Pengantar Kearsipan Modern",
+              "author": { "@type": "Person", "name": "R. W. Siregar" },
+              "isbn": "978-602-0000-002-8",
+              "datePublished": "2020-05-10",
+              "publisher": { "@type": "Organization", "name": "Arsip Press" },
+              "inLanguage": "id-ID"
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "item": {
+              "@type": "Book",
+              "name": "Literasi Informasi untuk Mahasiswa",
+              "author": { "@type": "Person", "name": "N. K. Lestari" },
+              "isbn": "978-602-0000-003-5",
+              "datePublished": "2022-03-15",
+              "publisher": { "@type": "Organization", "name": "Cakrawala Edu" },
+              "inLanguage": "id-ID"
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 4,
+            "item": {
+              "@type": "Book",
+              "name": "Manajemen Koleksi & Katalogisasi",
+              "author": { "@type": "Person", "name": "H. M. Nugroho" },
+              "isbn": "978-602-0000-004-2",
+              "datePublished": "2019-08-20",
+              "publisher": { "@type": "Organization", "name": "Bibliotek Media" },
+              "inLanguage": "id-ID"
+            }
+          },
+          {
+            "@type": "ListItem",
+            "position": 5,
+            "item": {
+              "@type": "Book",
+              "name": "Metode Penelusuran Informasi",
+              "author": { "@type": "Person", "name": "S. Rahman" },
+              "isbn": "978-602-0000-005-9",
+              "datePublished": "2018-11-02",
+              "publisher": { "@type": "Organization", "name": "Riset Mandiri" },
+              "inLanguage": "id-ID"
+            }
+          }
+        ]
+      }
+    ]
+  }
+  </script>
+</head>
+
+<body>
+  <a class="skip-link" href="#konten-utama">Lewati ke konten utama</a>
+
+  <header class="site-header" role="banner">
+    <div class="topbar">
+      <div class="container topbar-inner">
+        <p class="topbar-text">
+          Portal Perpustakaan • Jam Layanan: Senin–Jumat 09.00–16.00
+        </p>
+        <a class="topbar-link" href="#kontak" aria-label="Lompat ke bagian kontak">Kontak</a>
+      </div>
+    </div>
+
+    <div class="container header-inner">
+      <div class="brand">
+        <a class="brand-link" href="#" aria-label="Beranda Perpustakaan Sederhana">
+          <span class="brand-mark" aria-hidden="true">Blg</span>
+          <span class="brand-text">
+            <strong class="brand-name">Perpustakaan Bulog</strong>
+            <span class="brand-subtitle">Bangun Menerangi</span>
+          </span>
+        </a>
+      </div>
+
+      <nav class="site-nav" aria-label="Navigasi ringkas">
+        <a href="#katalog" class="nav-link">Katalog</a>
+        <a href="#koleksi" class="nav-link">Koleksi</a>
+        <a href="#tentang" class="nav-link">Tentang</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="konten-utama" class="site-main">
+    <section class="hero" aria-labelledby="judul-hero">
+      <div class="container hero-inner">
+        <div class="hero-copy">
+          <h1 id="judul-hero"> Welcome to our Libraries!</h1>
+          <p class="hero-desc">
+            Perpustakaan sederhana yang dibuat dengan rasa cinta dan kasih sayang. Menyediakan beberapa koleksi buku yang bermanfaat kepada banyak orang, atau setidaknya, sebagian orang.
+          </p>
+
+          <form class="search" id="katalog" role="search" aria-label="Pencarian katalog buku" action="#" method="get">
+            <label class="search-label" for="q">Cari buku</label>
+            <div class="search-row">
+              <input
+                id="q"
+                name="q"
+                type="search"
+                placeholder="Cari berdasarkan judul, penulis, atau ISBN…"
+                autocomplete="off"
+              />
+              <button type="submit" class="btn btn-primary" aria-label="Tombol cari">Cari</button>
+            </div>
+            <p class="search-hint">
+              Contoh: <span class="chip">katalogisasi</span> <span class="chip">literasi</span> <span class="chip">kearsipan</span>
+            </p>
+          </form>
+
+          <div class="hero-badges" aria-label="Ringkasan cepat">
+            <div class="badge">
+              <span class="badge-value">5</span>
+              <span class="badge-label">Buku Pilihan</span>
+            </div>
+            <div class="badge">
+              <span class="badge-value">5</span>
+              <span class="badge-label">Buku Tersedia</span>
+            </div>
+            <div class="badge">
+              <span class="badge-value">5</span>
+              <span class="badge-label">Buku Terbaik</span>
+            </div>
+          </div>
+        </div>
+
+        <aside class="hero-panel" aria-label="Informasi ringkas perpustakaan">
+          <h2 class="panel-title">Informasi Singkat</h2>
+          <dl class="panel-dl">
+            <div class="dl-row">
+              <dt>Alamat</dt>
+              <dd>Depok, Jawa Barat, Indonesia</dd>
+            </div>
+            <div class="dl-row">
+              <dt>Email</dt>
+              <dd><a href="mailto:halo@contoh-domainmu.id">layanan@perpusbulog.id</a></dd>
+            </div>
+            <div class="dl-row">
+              <dt>Telepon</dt>
+              <dd><a href="tel:+62210000000">+62-21-6767-999</a></dd>
+            </div>
+            <div class="dl-row">
+              <dt>Status</dt>
+              <dd>Aktif</dd>
+            </div>
+          </dl>
+        </aside>
+      </div>
+    </section>
+
+    <section id="koleksi" class="section" aria-labelledby="judul-koleksi">
+      <div class="container">
+        <header class="section-header">
+          <h2 id="judul-koleksi">Koleksi Buku Pilihan</h2>
+          <p class="section-desc">
+            Berikut 5 buku yang bisa kalian baca!
+          </p>
+        </header>
+
+        <div class="grid" role="list" aria-label="Daftar buku">
+          <article class="book" role="listitem" itemscope itemtype="https://schema.org/Book">
+            <figure class="book-cover">
+              <img
+                class="cover-img"
+                alt="Sampul buku Dasar-Dasar Ilmu Perpustakaan"
+                src="ddippendekatanpraktis.webp"
+                width="240" height="320"
+                itemprop="image"
+                loading="lazy"
+              />
+            </figure>
+
+            <div class="book-body">
+              <h3 class="book-title" itemprop="name">Dasar-Dasar Ilmu Perpustakaan: Sebuah Pendekatan Praktis</h3>
+              <p class="book-meta">
+                <span itemprop="author" itemscope itemtype="https://schema.org/Person">
+                  Penulis: <strong itemprop="name">Wiji Suwarno</strong>
+                </span>
+                <span class="dot" aria-hidden="true">•</span>
+                <span>Tahun: <time itemprop="datePublished" datetime="2021-01-01">2020</time></span>
+              </p>
+
+              <p class="book-desc" itemprop="description">
+                Pengenalan prinsip layanan perpustakaan, organisasi koleksi, serta dasar pengelolaan informasi untuk pemula.
+              </p>
+
+              <dl class="book-dl">
+                <div class="dl-row">
+                  <dt>ISBN</dt>
+                  <dd itemprop="isbn">9792544070</dd>
+                </div>
+                <div class="dl-row">
+                  <dt>Penerbit</dt>
+                  <dd itemprop="publisher" itemscope itemtype="https://schema.org/Organization">
+                    <span itemprop="name">Ar-Ruzz Media</span>
+                  </dd>
+                </div>
+              </dl>
+
+              <div class="book-actions">
+                <a class="btn btn-outline" href="#kontak" aria-label="Tanya ketersediaan buku Dasar-Dasar Ilmu Perpustakaan: Sebuah Pendekatan Praktis">Tanya Ketersediaan</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="book" role="listitem" itemscope itemtype="https://schema.org/Book">
+            <figure class="book-cover">
+              <img
+                class="cover-img"
+                alt="Pengantar Ilmu Kearsipan"
+                src="pik.webp"
+                width="240" height="320"
+                itemprop="image"
+                loading="lazy"
+              />
+            </figure>
+
+            <div class="book-body">
+              <h3 class="book-title" itemprop="name">Pengantar Ilmu Kearsipan</h3>
+              <p class="book-meta">
+                <span itemprop="author" itemscope itemtype="https://schema.org/Person">
+                  Penulis: <strong itemprop="name">Sulistyo Basuki</strong>
+                </span>
+                <span class="dot" aria-hidden="true">•</span>
+                <span>Tahun: <time itemprop="datePublished" datetime="2020-05-10">2022</time></span>
+              </p>
+
+              <p class="book-desc" itemprop="description">
+                Membahas konsep siklus hidup arsip, klasifikasi, retensi, hingga praktik pengelolaan arsip dalam organisasi.
+              </p>
+
+              <dl class="book-dl">
+                <div class="dl-row">
+                  <dt>ISBN</dt>
+                  <dd itemprop="isbn">9786234803259</dd>
+                </div>
+                <div class="dl-row">
+                  <dt>Penerbit</dt>
+                  <dd itemprop="publisher" itemscope itemtype="https://schema.org/Organization">
+                    <span itemprop="name">Universitas Terbuka</span>
+                  </dd>
+                </div>
+              </dl>
+
+              <div class="book-actions">
+                <a class="btn btn-outline" href="#kontak" aria-label="Tanya ketersediaan buku Pengantar Kearsipan Modern">Tanya Ketersediaan</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="book" role="listitem" itemscope itemtype="https://schema.org/Book">
+            <figure class="book-cover">
+              <img
+                class="cover-img"
+                alt="Sampul buku Literasi Informasi untuk Mahasiswa"
+                src="literasiinformasi.webp"
+                width="240" height="320"
+                itemprop="image"
+                loading="lazy"
+              />
+            </figure>
+
+            <div class="book-body">
+              <h3 class="book-title" itemprop="name">Literasi Informasi</h3>
+              <p class="book-meta">
+                <span itemprop="author" itemscope itemtype="https://schema.org/Person">
+                  Penulis: <strong itemprop="name">Tri Septiyantono</strong>
+                </span>
+                <span class="dot" aria-hidden="true">•</span>
+                <span>Tahun: <time itemprop="datePublished" datetime="2022-03-15">2014</time></span>
+              </p>
+
+              <p class="book-desc" itemprop="description">
+                Panduan menilai kredibilitas sumber, strategi penelusuran, sitasi, dan etika akademik dalam riset.
+              </p>
+
+              <dl class="book-dl">
+                <div class="dl-row">
+                  <dt>ISBN</dt>
+                  <dd itemprop="isbn">9786234800586</dd>
+                </div>
+                <div class="dl-row">
+                  <dt>Penerbit</dt>
+                  <dd itemprop="publisher" itemscope itemtype="https://schema.org/Organization">
+                    <span itemprop="name">Universitas Terbuka</span>
+                  </dd>
+                </div>
+              </dl>
+
+              <div class="book-actions">
+                <a class="btn btn-outline" href="#kontak" aria-label="Tanya ketersediaan buku Literasi Informasi untuk Mahasiswa">Tanya Ketersediaan</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="book" role="listitem" itemscope itemtype="https://schema.org/Book">
+            <figure class="book-cover">
+              <img
+                class="cover-img"
+                alt="Sampul buku Manajemen Koleksi dan Katalogisasi"
+                src="manajemenkol.webp"
+                width="240" height="320"
+                itemprop="image"
+                loading="lazy"
+              />
+            </figure>
+
+            <div class="book-body">
+              <h3 class="book-title" itemprop="name">Buku Ajar Manajemen Koleksi</h3>
+              <p class="book-meta">
+                <span itemprop="author" itemscope itemtype="https://schema.org/Person">
+                  Penulis: <strong itemprop="name">Elva Rahmah</strong>
+                </span>
+                <span class="dot" aria-hidden="true">•</span>
+                <span>Tahun: <time itemprop="datePublished" datetime="2019-08-20">2021</time></span>
+              </p>
+
+              <p class="book-desc" itemprop="description">
+                Membahas seleksi, pengembangan koleksi, metadata, hingga praktik katalogisasi untuk memudahkan temu balik informasi.
+              </p>
+
+              <dl class="book-dl">
+                <div class="dl-row">
+                  <dt>ISBN</dt>
+                  <dd itemprop="isbn">978-623-231-889-2</dd>
+                </div>
+                <div class="dl-row">
+                  <dt>Penerbit</dt>
+                  <dd itemprop="publisher" itemscope itemtype="https://schema.org/Organization">
+                    <span itemprop="name">Rajawali Pers, Pendidikan</span>
+                  </dd>
+                </div>
+              </dl>
+
+              <div class="book-actions">
+                <a class="btn btn-outline" href="#kontak" aria-label="Tanya ketersediaan buku Manajemen Koleksi dan Katalogisasi">Tanya Ketersediaan</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="book" role="listitem" itemscope itemtype="https://schema.org/Book">
+            <figure class="book-cover">
+              <img
+                class="cover-img"
+                alt="Sampul buku Metode Penelusuran Informasi"
+                src="inforliteracyskill.webp"
+                width="240" height="320"
+                itemprop="image"
+                loading="lazy"
+              />
+            </figure>
+
+            <div class="book-body">
+              <h3 class="book-title" itemprop="name">Information Literacy Skill: Strategi Penelusuran Informasi Online</h3>
+              <p class="book-meta">
+                <span itemprop="author" itemscope itemtype="https://schema.org/Person">
+                  Penulis: <strong itemprop="name">Muhammad Azwar</strong>
+                </span>
+                <span class="dot" aria-hidden="true">•</span>
+                <span>Tahun: <time itemprop="datePublished" datetime="2018-11-02">2014</time></span>
+              </p>
+
+              <p class="book-desc" itemprop="description">
+               Buku ini membahas mengenai Literasi Informasi : Strategi Penelusuran Informasi Online. Tulisan dalam buku ini pada dasarnya mengajak para kaum terpelajar baik pada tingkatan sekolah maupun perguruan tinggi yang saat ini hidup di zaman internet untuk mempelajari keterampilan literasi informasi khususnya dalam hal strategi penelusuran informasi online. Tulisan ini juga memperkenalkan kepada pembaca beberapa situs-situs online karya ilmiah yang seharusnya sering diakses oleh mahasiswa dan dosen dalam memenuhi kebutuhan informasi mereka di kampus. Situs-situs ini seperti halnya dengan buku atau karya ilmiah yang sering kita jumpai di perpustakaan, hanya saja formatnya yang berbeda (digital). Situs-situs online tersebut memuat banyak sekali informasi ilmiah yang bisa diakses secara gratis. Penulis juga memperkenalkan konsep perpustakaan online yang saat ini cukup berkembang di Indonesia. Pengguna perpustakaan bisa memanfaatkan berbagai layanan perpustakaan dengan mudah dan cepat melalui akses internet. Pada akhir tulisan, tak lupa penulis memaparkan peran penting pustakawan dalam menggalakkan program literasi informasi kepada pengguna perpustakaan.
+              </p>
+
+              <dl class="book-dl">
+                <div class="dl-row">
+                  <dt>ISBN</dt>
+                  <dd itemprop="isbn">9786022376149</dd>
+                </div>
+                <div class="dl-row">
+                  <dt>Penerbit</dt>
+                  <dd itemprop="publisher" itemscope itemtype="https://schema.org/Organization">
+                    <span itemprop="name">Alauddin University Press</span>
+                  </dd>
+                </div>
+              </dl>
+
+              <div class="book-actions">
+                <a class="btn btn-outline" href="#kontak" aria-label="Tanya ketersediaan buku Metode Penelusuran Informasi">Tanya Ketersediaan</a>
+              </div>
+            </div>
+          </article>
+        </div>
+
+        <p class="note" id="tentang">
+          <strong>Catatan: Harap untuk tetap mengikuti aturan hak cipta yang berlaku.</p>
+      </div>
+    </section>
+
+    <section id="kontak" class="section section-muted" aria-labelledby="judul-kontak">
+      <div class="container">
+        <header class="section-header">
+          <h2 id="judul-kontak">Kontak Perpustakaan</h2>
+          <p class="section-desc">Gunakan informasi dibawah ini untuk menanyakan ketersediaan koleksi atau jam layanan.</p>
+        </header>
+
+        <address class="contact" aria-label="Informasi kontak">
+          <p><strong>Perpustakaan Bulog</strong></p>
+          <p>Jl. Kemang 1, Depok, Indonesia</p>
+          <p>Email: <a href="layanan@perpusbulog.id">layanan@perpusbulog.id</a></p>
+          <p>Telepon: <a href="tel:+62210000000">+62-21-6767-999</a></p>
+        </address>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer" role="contentinfo">
+    <div class="container footer-inner">
+      <p class="footer-text">
+        © <span>2026</span> Perpustakaan Bulog
+      </p>
+      <p class="footer-links">
+        <a href="#katalog">Katalog</a>
+        <a href="#koleksi">Koleksi</a>
+        <a href="#konten-utama">Ke Atas</a>
+      </p>
+    </div>
+  </footer>
+</body>
+</html>
